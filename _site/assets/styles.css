@@ -103,8 +103,8 @@ header ul li a:hover {
     header ul {
         display: none; /* Hide the menu links by default on smaller screens */
         flex-direction: column; /* Stack items vertically when displayed */
-        background: linear-gradient(90deg, #020039, #5f00c7); /* Soft gradient */
-        background-color: #C70039;
+        background: linear-gradient(90deg, #020039, #200068); /* Soft gradient */
+        background-color: #020039;
         position: absolute;
         top: 50px; /* Position below the header */
         left: 0;
