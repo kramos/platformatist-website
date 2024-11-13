@@ -23,7 +23,7 @@ email: markosrendell@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Home of Platformatist 
 baseurl: "/platformatist-website" 
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://platformatist.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: NA
 github_username:  kramos
 
