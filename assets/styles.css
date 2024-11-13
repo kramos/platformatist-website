@@ -9,7 +9,7 @@ body {
     font-family: 'Helvetica Neue', sans-serif;
     font-size: 16px;
     background-color: #fff;
-    margin: 0;
+    margin-top: 80px;
     padding: 0;
     color: #333;
     letter-spacing: 0.5px;
@@ -25,13 +25,16 @@ body {
     flex-grow: 1;
 }
 
+main {
+    padding: 20px;
+}
 a, a:visited {
   color: black
 }
 
 h1, h2, h3 {
     font-weight: bold;
-    color: #C70039;
+    color: black;
 }
 
 /* Default styles for the header and nav */
@@ -155,6 +158,10 @@ footer {
     height: 60px; /* Fixed height for header */
 }
 
+footer a, footer a:visited {
+  color: white
+}
+
 .mail {
     color: white;
     font-weight: bold;
@@ -165,19 +172,3 @@ footer {
     flex-grow: 1; /* Allow the text to grow and take the remaining space */
 }
 
-/* Different background colors for the speech bubbles */
-.testimonial.red {
-    background-color: #ffcccc; /* Light red */
-}
-
-.testimonial.green {
-    background-color: #ccffcc; /* Light green */
-}
-
-.testimonial.blue {
-    background-color: #cce5ff; /* Light blue */
-}
-
-.testimonial.yellow {
-    background-color: #ffffcc; /* Light yellow */
-}

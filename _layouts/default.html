@@ -20,8 +20,9 @@
             </div>
             <ul id="nav-links">
                 <li><a href="{{ '/' | relative_url }}">home</a></li>
-                <li><a href="https://markosrendell.wordpress.com/about/">about us</a></li>
+                <li><a href="{{ '/about' | relative_url }}">about</a></li>
                 <li><a href="https://markosrendell.wordpress.com/">blog</a></li>
+                <li><a href="mailto:{{ page.email }}">contact</a></li>                
             </ul>
         </nav>
     </header>
@@ -31,7 +32,9 @@
     </main>
     <br/>
     <footer>
-        <p><a href="mailto:markosrendell@gmail.com" class="mail">contact</a>&nbsp;&nbsp;|&nbsp;&nbsp;&copy;&nbsp;2024&nbsp;platformatist</p>
+        <p>
+            <a href="mailto:{{ page.email }}" class="mail">contact</a>&nbsp;&nbsp;|&nbsp;&nbsp;&copy;&nbsp;2024&nbsp;platformatist
+        </p>
     </footer>
 
 </body>
@@ -44,4 +47,6 @@
         navLinks.classList.toggle('show'); // Toggles the "show" class to display/hide the menu
     }
 </script>
+
+
 
