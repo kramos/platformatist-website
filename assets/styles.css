@@ -132,9 +132,6 @@ header ul li a:hover {
 img {
     width: 100%;
     height: auto;
-    background: linear-gradient(to right, white, transparent 90%);
-    background: linear-gradient(to left, white, transparent 90%);
-
 }
 
 .map {
